@@ -1,0 +1,154 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+    135deg,
+    #667eea,
+    #764ba2
+  );
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  width: 700px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+}
+
+.app h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+/* Form */
+
+form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+input {
+  flex: 1;
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  outline: none;
+  font-size: 16px;
+}
+
+input:focus {
+  border-color: #667eea;
+}
+
+/* Buttons */
+
+button {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+/* Task Card */
+
+.task-card {
+  background: #f8f9ff;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 12px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.08);
+}
+
+.task-info {
+  flex: 1;
+  text-align: left;
+}
+
+.task-info h3 {
+  color: #333;
+}
+
+/* Button Group */
+
+.task-actions {
+  display: flex;
+  gap: 8px;
+}
+
+/* Complete Button */
+
+.complete-btn {
+  background: #22c55e;
+  color: white;
+}
+
+.complete-btn:hover {
+  background: #16a34a;
+}
+
+/* Edit Button */
+
+.edit-btn {
+  background: #3b82f6;
+  color: white;
+}
+
+.edit-btn:hover {
+  background: #2563eb;
+}
+
+/* Delete Button */
+
+.delete-btn {
+  background: #ef4444;
+  color: white;
+}
+
+.delete-btn:hover {
+  background: #dc2626;
+}
+
+/* Add Button */
+
+.add-btn {
+  background: #667eea;
+  color: white;
+}
+
+.add-btn:hover {
+  background: #4f63d6;
+}
+
+/* Completed Task */
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.stats {
+ display:flex;
+ justify-content:space-around;
+ margin-bottom:20px;
+}
