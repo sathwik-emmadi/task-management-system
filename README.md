@@ -115,7 +115,9 @@ This project is developed for learning, academic, and portfolio purposes.
 
 ## Live Demo
 
-Frontend: https://your-vercel-url.vercel.app
+https://sathwik-task-manager.vercel.app
 
-Backend: https://task-management-system-grew.onrender.com
+## GitHub Repository
+
+https://github.com/sathwik-emmadi/task-management-system
 
